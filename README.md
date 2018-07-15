@@ -91,3 +91,4 @@ these five points  are the knobs that we can dial to control our object detector
 
 The `Linear SVM` section can be found at the very bottom of the file. We have added two parameters for our classifier. The first is the output classifier_path  — this is the path to where our classifier will be stored after training.
 
+![image](https://github.com/anirbanghoshsbi/Vehicle-Detection/blob/master/doubt.png)
