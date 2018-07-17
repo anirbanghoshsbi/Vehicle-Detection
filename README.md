@@ -1,4 +1,4 @@
-# # HOG Theory
+# HOG Theory
 
 the most important feature of a HOG descriptors are orientations , pixels_per_cell and cells_per_block
 these three parameter along with the input image controls the dimensionality of the resulting featue vector.
@@ -65,3 +65,13 @@ To account for changes in illumination and constrast we can normalize the gradie
 
 
 
+
+<img src= https://github.com/anirbanghoshsbi/Vehicle-Detection/blob/master/img.png>
+
+
+The extracted HOG features of the above image
+<img src= https://github.com/anirbanghoshsbi/Vehicle-Detection/blob/master/hog.png>
+
+
+
+After the HOG features are extracted from the image we pass it through k-Nearest neighbors classifier to classify new test images.
